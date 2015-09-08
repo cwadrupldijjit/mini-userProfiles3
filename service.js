@@ -12,7 +12,7 @@ app.service('mainService', function($http, $q) {
           var parsedResponse = response.data.data
           
           for (var i = 0; i < parsedResponse.length; i++) {
-              parsedResponse[i].first_name = "Edward";
+              parsedResponse[i].first_name = "Phil";
           }
           
           deferred.resolve(parsedResponse);
