@@ -1,3 +1,4 @@
+/* global angular */
 var app = angular.module('userProfiles');
 
 app.service('mainService', function($http, $q) {
